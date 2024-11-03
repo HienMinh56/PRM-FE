@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'package:NomDeli/model/transaction_model.dart';
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:nomnomprm/model/transaction_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class WalletPage extends StatefulWidget {
