@@ -1,13 +1,8 @@
-import 'package:NomDeli/Provider/cart_provider.dart';
-import 'package:NomDeli/Provider/user_provider.dart';
-import 'package:NomDeli/page/CartScreen.dart';
-import 'package:NomDeli/page/EditProfileScreen.dart';
-import 'package:NomDeli/page/LoginScreen.dart';
-import 'package:NomDeli/page/OrderHistoryScreen.dart';
-import 'package:NomDeli/page/QRCustomCareScreen.dart';
-import 'package:NomDeli/page/RestaurantScreen.dart';
-import 'package:NomDeli/page/WalletScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:nomnomprm/provider/cart_provider.dart';
+import 'package:nomnomprm/provider/user_provider.dart';
+import 'package:nomnomprm/screen/EditProfileScreen.dart';
+import 'package:nomnomprm/screen/LoginScreen.dart';
 import 'package:provider/provider.dart';
 
 class UserProfilePage extends StatefulWidget {
