@@ -13,6 +13,11 @@ class AuthProvider with ChangeNotifier {
     notifyListeners();
   }
 
+void updateAccessToken(String token) {
+  _accessToken = token;
+  _isAuthenticated = true;
+  notifyListeners();
+}
   bool checkAuthenticated() {
     return _isAuthenticated && _accessToken != null;
   }
