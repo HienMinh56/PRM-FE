@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nomnomprm/provider/cart_provider.dart';
 import 'package:nomnomprm/provider/user_provider.dart';
+import 'package:nomnomprm/screen/CartScreen.dart';
 import 'package:nomnomprm/screen/EditProfileScreen.dart';
 import 'package:nomnomprm/screen/LoginScreen.dart';
+import 'package:nomnomprm/screen/OrderHistoryScreen.dart';
+import 'package:nomnomprm/screen/WalletScreen.dart';
 import 'package:provider/provider.dart';
 
 class UserProfilePage extends StatefulWidget {
