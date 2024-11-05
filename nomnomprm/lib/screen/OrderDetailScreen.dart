@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:NomDeli/model/order_details_model.dart';
+import 'package:nomnomprm/model/order_details_model.dart';
 
 class OrderDetailsPage extends StatelessWidget {
   final String orderId;
